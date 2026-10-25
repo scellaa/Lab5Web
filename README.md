@@ -1,7 +1,7 @@
 # Lab5Web
 
-### Penjelasan kode 
-Latihan 1
+### Penjelasan kode <br>
+Latihan 1 <br>
 <img width="826" height="391" alt="image" src="https://github.com/user-attachments/assets/2e8ed7ea-3b26-42a4-8166-3fcd00681f5c" />
 <br>
 Program ini menerima dua nilai dari prompt() lalu menampilkan hasil penjumlahan, pengurangan, perkalian, pembagian, dan modulus di console. Karena prompt() selalu mengembalikan string, nilainya harus dikonversi dengan Number(); tanpa itu, "9" + "4" menghasilkan "94", bukan 13. Fungsi isNaN() memastikan input berupa angka, sedangkan operator ternary mencegah pembagian dan modulus dengan nol. Perlu diingat bahwa prompt() hanya tersedia di browser, tidak di Node.js.
