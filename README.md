@@ -14,3 +14,6 @@ Latihan 7 <br>
 Perulangan for dimulai dari i = 1, berjalan selama i <= 10, dan menambah i satu per satu di setiap putaran. Pada tiap putaran, hasil perkalian dicetak memakai template literal (tanda ` dan ${}) agar teks dan nilai dapat digabung tanpa operator +. Dengan membungkusnya dalam fungsi tabelPerkalian(angka), tabel untuk angka apa pun dapat ditampilkan.
 <img width="826" height="386" alt="image" src="https://github.com/user-attachments/assets/35332180-09de-44ba-b329-f92544a5917d" />
 
+Latihan 8 <br>
+<img width="826" height="156" alt="image" src="https://github.com/user-attachments/assets/ee6af96d-561d-4663-a509-e93a4b4851a1" /><br>
+Halaman ini memeriksa apakah bilangan bulat yang dimasukkan pengguna genap atau ganjil. Fungsi cekGenap(angka) mengembalikan true jika angka habis dibagi 2 dan false jika tidak, tanpa perlu if tambahan karena operator === sudah menghasilkan nilai boolean. Fungsi cekBilangan() mengambil input, memvalidasinya dengan Number.isInteger(), lalu menampilkan hasilnya di elemen <p>. Memisahkan cekGenap dari logika tampilan membuat fungsi tersebut mudah dipakai ulang, dan bilangan negatif tetap dihitung dengan benar.
