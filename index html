@@ -1,0 +1,71 @@
+// latihan 1
+
+console.log("Pengurangan:", a - b);
+  console.log("Perkalian:", a * b);
+  console.log("Pembagian:", b !== 0 ? a / b : "Tidak dapat dibagi nol");
+  console.log("Modulus:", b !== 0 ? a % b : "Tidak dapat dibagi nol");
+}
+
+const a = Number(prompt("Masukkan nilai pertama:"));
+const b = Number(prompt("Masukkan nilai kedua:"));
+
+if (isNaN(a) || isNaN(b)) {
+  console.log("Input tidak valid, masukkan angka saja.");
+} else {
+  operasiDasar(a, b);
+}
+
+// Latihan 7
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`7 x ${i} = ${7 * i}`);
+}
+
+// latihan 8 dan 9 
+for (let i = 1; i <= 10; i++) {
+  console.log(`7 x ${i} = ${7 * i}`);
+}
+
+// latihan 10 
+
+<h3>Daftar Menu Makanan dan Minuman</h3>
+<label><input type="checkbox" class="menu" value="15000"> Ayam Goreng — Rp15.000</label><br>
+<label><input type="checkbox" class="menu" value="15000"> Bebek Goreng - Rp15.0000</label><br>
+<label><input type="checkbox" class="menu" value="2000"> Tempe — Rp2.000</label><br>
+<label><input type="checkbox" class="menu" value="5000"> Telur Dadar — Rp5.000</label><br>
+<label><input type="checkbox" class="menu" value="3000"> Nasi Putih — Rp3.000</label><br>
+<label><input type="checkbox" class="menu" value="7000"> Sayur Asem — Rp7.000</label><br>
+<label><input type="checkbox" class="menu" value="5000"> Es Teh Manis — Rp5.000</label><br>
+<p>Total: Rp<span id="total">0</span></p>
+
+<script>
+  const daftarMenu = document.querySelectorAll(".menu");
+  daftarMenu.forEach((item) => {
+    item.addEventListener("change", hitungTotal);
+  });
+
+  function hitungTotal() {
+    let total = 0;
+    daftarMenu.forEach((item) => {
+      if (item.checked) total += Number(item.value);
+    });
+    document.getElementById("total").textContent = total.toLocaleString("id-ID");
+  }
+</script>
+
+
+// latihan 10 
+<button type="button" id="tombolToggle" aria-expanded="true">Sembunyikan</button>
+<p id="konten">Halo nama saya Mayscela.</p>
+
+<script>
+  const tombol = document.getElementById("tombolToggle");
+  const konten = document.getElementById("konten");
+
+  tombol.addEventListener("click", function () {
+    konten.hidden = !konten.hidden;
+
+    tombol.textContent = konten.hidden ? "Tampilkan" : "Sembunyikan";
+    tombol.setAttribute("aria-expanded", String(!konten.hidden));
+  });
+</script>
