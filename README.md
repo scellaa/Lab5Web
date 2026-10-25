@@ -27,6 +27,6 @@ Latihan 11 <br>
 <img width="842" height="353" alt="image" src="https://github.com/user-attachments/assets/4f3eee0a-1f02-4c3d-8add-1d5475a7597a" /><br>
 Setiap kali tombol diklik, properti hidden pada elemen konten dibalik nilainya dengan operator !, sehingga elemen bergantian tersembunyi dan tampil. Teks tombol ikut diperbarui lewat operator ternary agar sesuai kondisi saat ini, dan atribut aria-expanded membantu pembaca layar menyampaikan status konten. Alternatifnya adalah mengubah style.display antara "none" dan "block", yang lebih aman jika elemen sudah memiliki aturan CSS display sendiri seperti flex. <br>
 
-<img width="287" height="119" alt="image" src="https://github.com/user-attachments/assets/0646ac1a-35e6-4ea9-860d-5885355d7fd3" />
+<img width="287" height="119" alt="image" src="https://github.com/user-attachments/assets/0646ac1a-35e6-4ea9-860d-5885355d7fd3" /> <br>
 <img width="251" height="81" alt="image" src="https://github.com/user-attachments/assets/78cac066-88d4-4c3a-bb06-77ca054602d7" />
 
