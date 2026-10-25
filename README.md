@@ -9,4 +9,8 @@ Program ini menerima dua nilai dari prompt() lalu menampilkan hasil penjumlahan,
 <img width="826" height="159" alt="image" src="https://github.com/user-attachments/assets/6d645b73-6f47-4576-8ed2-f8e8150e1b89" />
 <img width="826" height="324" alt="image" src="https://github.com/user-attachments/assets/ef747b75-c602-43ef-b7e8-71577f43db30" />
 
+Latihan 7 <br>
+<img width="756" height="214" alt="image" src="https://github.com/user-attachments/assets/62aef061-4eb7-4a34-9c81-3020f0e8139c" /> <br>
+Perulangan for dimulai dari i = 1, berjalan selama i <= 10, dan menambah i satu per satu di setiap putaran. Pada tiap putaran, hasil perkalian dicetak memakai template literal (tanda ` dan ${}) agar teks dan nilai dapat digabung tanpa operator +. Dengan membungkusnya dalam fungsi tabelPerkalian(angka), tabel untuk angka apa pun dapat ditampilkan.
+<img width="826" height="386" alt="image" src="https://github.com/user-attachments/assets/35332180-09de-44ba-b329-f92544a5917d" />
 
